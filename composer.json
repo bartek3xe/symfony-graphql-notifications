@@ -1,4 +1,6 @@
 {
+    "name": "bartosz/symfony-graphql-notifications",
+    "description": "Real-time notification system based on Symfony and GraphQL",
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "stable",
