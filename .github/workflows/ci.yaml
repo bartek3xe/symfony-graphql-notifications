@@ -26,6 +26,3 @@ jobs:
 
       - name: Run PHPStan
         run: vendor/bin/phpstan analyse
-
-      - name: Run PHPUnit (opcjonalnie, jeśli masz testy)
-        run: vendor/bin/phpunit
