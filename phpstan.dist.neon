@@ -5,7 +5,6 @@ parameters:
         - config/
         - public/
         - src/
-        - tests/
     excludePaths:
         analyse:
             - %currentWorkingDirectory%/var
