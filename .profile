@@ -35,6 +35,7 @@ csfixer() {
 
 # Global quality check
 quality() {
-    vendor/bin/php-cs-fixer fix --diff --allow-risky=yes
+    composer validate --strict
+    vendor/bin/php-cs-fixer fix --diff --dry-run --allow-risky=yes
     vendor/bin/phpstan analyse -c phpstan.dist.neon src
 }
